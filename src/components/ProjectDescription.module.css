@@ -1,0 +1,14 @@
+.descriptionCard {
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px grey;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+
+}
+
+.descriptionCard p {
+  margin: 8px  22px;
+  text-align: justify;
+}

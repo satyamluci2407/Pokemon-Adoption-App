@@ -1,0 +1,15 @@
+.instructions {
+  max-width: 800px;
+}
+
+.instructions h2 {
+  margin-bottom: 1rem;
+}
+
+.instructions ol {
+  padding-left: 3rem;
+}
+
+.instructions li {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,165 @@
+.card {
+  border: 2px solid gray;
+  border-radius: 1rem;
+  box-shadow: 5px 10px 8px gray;
+  width: 18rem;
+  overflow: hidden;
+}
+
+.card figure {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 12rem;
+}
+
+.card img {
+  display: block;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.cardBody {
+  border-top: 1px solid grey;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.name {
+  text-transform: capitalize;
+  margin-bottom: 0.4rem;
+}
+
+.cardBody p {
+  margin-bottom: 0.4rem;
+}
+
+.types {
+  margin-bottom: 0.8rem;
+}
+
+.adoptBtn {
+  color: white;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 0.4rem;
+  box-shadow: 5px 10px 5px grey;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.4rem 1rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.adoptBtn:hover {
+  color: blue;
+  background-color: white;
+}
+
+.adoptBtn:active {
+  transform: translateY(2px);
+}
+
+.adoptBtn:disabled {
+  color: blue;
+  background-color: white;
+  cursor: default;
+  pointer-events: none;
+}
+
+.types span {
+  padding: 0.2rem 0.8rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.bug {
+  color: white;
+  background-color: darkgreen;
+}
+
+.dark {
+  color: white;
+  background-color: black;
+}
+
+.dragon {
+  color: black;
+  background-color: lightblue;
+}
+
+.electric {
+  color: black;
+  background-color: yellow;
+}
+
+.fairy {
+  color: white;
+  background-color: palevioletred;
+}
+
+.fighting {
+  color: black;
+  background-color: orange;
+}
+
+.fire {
+  color: white;
+  background-color: red;
+}
+
+.flying {
+  color: white;
+  background-color: gray;
+}
+
+.ghost {
+  color: white;
+  background-color: purple;
+}
+
+.grass {
+  color: white;
+  background-color: green;
+}
+
+.ground {
+  color: white;
+  background-color: brown;
+}
+
+.ice {
+  color: black;
+  background-color: lightcyan;
+}
+
+.normal {
+  color: black;
+  background-color: lightgray;
+}
+
+.poison {
+  color: white;
+  background-color: rebeccapurple;
+}
+
+.psychic {
+  color: black;
+  background-color: pink;
+}
+
+.rock {
+  color: white;
+  background-color: chocolate;
+}
+
+.steel {
+  color: black;
+  background-color: lightgreen;
+}
+
+.water {
+  color: black;
+  background-color: lightskyblue;
+}

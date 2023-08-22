@@ -1,0 +1,26 @@
+.listContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.pokeGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+
+  .pokeGrid {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    column-gap: 2rem;
+  }
+
+  .pageControl {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10%;
+  }
+}

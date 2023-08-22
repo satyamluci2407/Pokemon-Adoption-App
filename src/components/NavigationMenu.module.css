@@ -1,0 +1,122 @@
+.header {
+  border: 1px solid black;
+  padding: 0 1.5rem;
+  background-color: rgb(90, 32, 178);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 3rem;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brandLink {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px yellow;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 0;
+  white-space: nowrap;
+}
+
+.togglerBtn {
+  color: white;
+  background-color: rgb(90, 32, 178);;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.4rem;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+
+.togglerBtn:active {
+  transform: translateY(2px);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.list a:hover, a.active {
+  color: rgb(90, 32, 178);;
+  background-color: lightblue;
+}
+
+.menuOn {
+  display: block;
+}
+
+.menuOff {
+  display: none;
+}
+
+.badge {
+  background-color: rgb(90, 32, 178);;
+  border-radius: 1rem;
+  border: 1px solid white;
+  padding: 0.1rem 0.5rem;
+  color: yellow;
+}
+
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .list {
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .list li:last-child {
+    margin-left: auto;
+  }
+
+  nav {
+    width: 100%;
+    margin-left: 2rem;
+  }
+
+  .togglerBtn {
+    display: none;
+  }
+}
+
+/*
+.list li:first-child {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 1px yellow;
+  padding: 0;
+}
+
+
+.list li:last-child {
+  margin-left: auto;
+}
+
+*/
