@@ -12,7 +12,7 @@ export default function ProjectDescription() {
         Another goal of this project is to have it as a demo in my personal portfolio for potential employers.
       </p>
       <h4>Repository</h4>
-      <p>You can find the code for this app in this public <a href="https://github.com/satyamluci2407" target="_blank" rel="noopener noreferrer">GitHub repo</a>.</p>
+      <p>You can find the code for this app in this public <a href="https://github.com/satyamluci2407/Pokemon-Adoption-App" target="_blank" rel="noopener noreferrer">GitHub repo</a>.</p>
       <h4>Author</h4>
       <p>Satyam Shandilya</p>
       <h4>My portfolio</h4>
